@@ -29,15 +29,27 @@ public class ScientificCalculator {
                     break;
 
                 case 2:
-                    // Subtraction code here
+                    System.out.print("Enter Greater number: ");
+                    double num3 = scanner.nextDouble();
+                    System.out.print("Enter Smaller number: ");
+                    double num4 = scanner.nextDouble();
+                    System.out.println("Result: " + num3-num4);
                     break;
 
                 case 3:
-                    // Multiplication code here
+                   System.out.print("Enter first number: ");
+                    double a = scanner.nextDouble();
+                    System.out.print("Enter second number: ");
+                    double b = scanner.nextDouble();
+                    System.out.println("Result: " + a*b);
                     break;
 
                 case 4:
-                    // Division code here
+                    System.out.print("Enter dividend number: ");
+                    double c = scanner.nextDouble();
+                    System.out.print("Enter divisor number: ");
+                    double d = scanner.nextDouble();
+                    System.out.println("Result: " + c/d);
                     break;
 
                 case 5:
