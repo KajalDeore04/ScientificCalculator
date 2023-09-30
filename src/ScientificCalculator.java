@@ -33,7 +33,7 @@ public class ScientificCalculator {
                     double num3 = scanner.nextDouble();
                     System.out.print("Enter Smaller number: ");
                     double num4 = scanner.nextDouble();
-                    System.out.println("Result: " + num3-num4);
+                    System.out.println("Result: " + (num3-num4));
                     break;
 
                 case 3:
